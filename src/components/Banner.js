@@ -9,7 +9,7 @@ const BannerRender = () => {
       <h1 className={title}>We're Open for Adventure!</h1>
       <StaticImage
         alt="A sloth hanging from a leafy tree"
-        src="src/images/Sloths-fiona-and-beany-RWPZoo.jpg"
+        src="../images/Sloths-fiona-and-beany-RWPZoo.jpg"
       />
     </div>
   )
