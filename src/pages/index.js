@@ -1,5 +1,5 @@
-import React from "react"
-import BannerRender from '../components/banner'
+import * as React from "react"
+import BannerRender from "../components/banner"
 
 // markup
 const IndexPage = () => {
