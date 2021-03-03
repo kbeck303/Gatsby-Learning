@@ -1,17 +1,16 @@
-import * as React from "react"
+// src/components/Banner.js
+import * as React from "react";
+import { title } from "./Banner.module.css";
+import { StaticImage } from 'gatsby-plugin-image';
 
-// markup
 const BannerRender = () => {
   return (
-    <BannerMarkup name="Kathy" />
-  )
-}
-
-const BannerMarkup = ({ name }) => {
-  return (
     <div>
-      <h1>Welcome { name } to the site!</h1>
-      <p>Image</p>
+      <h1 className={title}>We're Open for Adventure!</h1>
+      <StaticImage
+        alt="A sloth hanging from a leafy tree"
+        src="src/images/Sloths-fiona-and-beany-RWPZoo.jpg"
+      />
     </div>
   )
 }

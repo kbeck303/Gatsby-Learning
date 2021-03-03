@@ -4,17 +4,17 @@ import MainMenuRender from "../components/MainMenu";
 import ButtonRender from "../components/Button";
 
 // markup
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <main>
-      <title>Roger Williams Park Zoo</title>
+      <title>About Roger Williams Park Zoo</title>
       <BannerRender />
       <MainMenuRender />
-      <h2>Here we go!</h2>
+      <h2>This is a new page</h2>
       <p>I'm building websites.</p>
-      <ButtonRender>Custom Button Text</ButtonRender>
+      <ButtonRender>About Button Text</ButtonRender>
     </main>
   )
 }
 
-export default IndexPage
+export default AboutPage
